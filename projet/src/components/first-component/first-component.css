@@ -1,0 +1,68 @@
+table
+{
+	margin-left:auto;
+    margin-right:auto;
+}
+	table.table-style-three {
+		font-family: verdana, arial, sans-serif;
+		font-size: 11px;
+        color: #333333;
+        width: 100px;
+		border-width: 1px;
+		border-color: black;
+        border-collapse: collapse;
+        margin-block-start: 75px;
+	}
+	table.table-style-three th {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: black;
+		background-color: #555;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 12px;
+        font-size: 20px;
+        font-weight: 700;
+	}
+	table.table-style-three tr:hover td {
+		cursor: pointer;
+	}
+	table.table-style-three tr:nth-child(even) td{
+        background-color: #7c7573;
+        font-family: verdana, arial, sans-serif;
+        color : white;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    
+	table.table-style-three td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: black;
+        background-color: #ffffff;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    button {
+        background: #555;
+        color: white;
+        margin: 8px;
+        border: none;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 16px 20px;
+        border-radius: 2px;
+        box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+        outline: 0;
+        letter-spacing: .04em;
+        transition: all .15s ease;
+        cursor: pointer;
+      }
+      button:hover {
+        box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+        transform: translateY(1px);
+      }
